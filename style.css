@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 170vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.heading{
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.form{
+    height: 160vh;
+    width:100vw ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: blueviolet;
+    overflow: hidden;
+    padding-top: 30px;
+}
+.left h3{
+    margin: 20px;
+}
+.right input{
+    margin: 12.5px;
+}
+
+
+#table table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table input{
+    margin: 3px 3px;
+}
+
+#table tr,th,td{
+    border: 1px solid black;
+}
+#courses{
+    margin-top: 100px;
+}
+.btn{
+
+    margin-top: 20px;
+}
+.btn button{
+    height: 30px;
+    width: 80px;
+}
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration <Form></Form></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>STUDENT REGISTRATION FORM</h1>
+        </div>
+        
+        <form action="action.php" class="form">
+
+            <div class="left">
+                <h3>FIRST NAME</h3>
+                <h3>LAST NAME</h3>
+                <h3>DATE OF BIRTH</h3>
+                <h3>EMAIL ID</h3>
+                <h3>MOBILE NUMBER</h3>
+                <h3>GENDER </h3>
+                <h3>ADDRESS </h3>
+                <h3>CITY </h3>
+                <h3>PIN CODE</h3>
+                <h3>STATE </h3>
+                <h3>COUNTRY </h3>
+                <h3>HOBBIES </h3>
+                <h3>QUALIFICATION</h3>
+                <h3 id="courses">COURSES APPLIED FOR</h3>
+                <h3>CV SUBMISSION</h3>
+             
+            </div>
+            <div class="right">
+                <input type="text" >(max 30 characters a-z and A-Z)
+                <br>
+                <input type="text" > (max 30 characters a-z and A-Z)
+                <br>
+                <input type="date">
+                <br>
+                <input type="email">
+                <br>
+                <input type="tel"> (10 digit mobile number)
+                <br>
+                 <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <br>
+                
+                 <input type="text" id="address">
+            <br>
+               <input type="text">(max 30 characters a-z and A-Z)
+                <br>
+                <input type="number"> (6 digit number)
+                <br>
+                <input type="text"> (max 30 characters a-z and A-Z)
+                <br>
+                <select name="country" id="country">
+                 <option value="India">India</option>
+                 <option value="Japan">Japan</option>
+                 <option value="USA">USA</option>
+                 <option value="UK">UK</option>
+                 <option value="Australia">Australia</option>
+                 <option value="UAE">UAE</option>
+                 <option value="Afganistan">Afganistan</option>
+                 <option value="Afganistan">Afganistan</option>
+                 <option value="South Africa">South Africa</option>
+                </select>
+                <br>
+                
+                Drawing<input type="checkbox">
+                Singing<input type="checkbox">
+                Dancing <input type="checkbox">
+                Sketching<input type="checkbox">
+                Others<input type="checkbox"><input type="text">
+                <br>
+                <div id="table">
+                 <table>
+                     <tr>
+                         <th>Sr.No.</th>
+                         <th>Examination</th>
+                         <th>Board</th>
+                         <th>Percentage</th>
+                         <th>Year of Passing</th>
+                     </tr>  
+                     <tr>
+                         <td>1</td>
+                         <td>Clss X</td>
+                         <td><input type="text"></td>
+                         <td><input type="number"></td>
+                         <td><input type="number"></td>
+                     </tr>
+                     
+                     <tr>
+                         <td>2</td>
+                         <td>Clss XII</td>
+                         <td><input type="text"></td>
+                         <td><input type="number"></td>
+                         <td><input type="number"></td>
+                     </tr>
+                   
+                     <tr>
+                         <td>3</td>
+                         <td>Graduation</td>
+                         <td><input type="text"></td>
+                         <td><input type="number"></td>
+                         <td><input type="number"></td>
+                     </tr>
+                    
+                     <tr>
+                         <td>4</td>
+                         <td>Masters</td>
+                         <td><input type="text"></td>
+                         <td><input type="number"></td>
+                         <td><input type="number"></td>
+                     </tr>
+                    
+                    </table>
+                </div>
+                
+                BCA<input type="radio" name="courses">
+                B.Com<input type="radio" name="courses">
+                B.Sc<input type="radio" name="courses">
+                B.A.<input type="radio" name="courses">
+            
+                
+                <br>
+                <input type="file">
+                <br>
+                <div class="btn">
+                 <button id="submit">Submit</button>
+                 <button id="reset">Reset</button>
+                </div>
+                
+            </div>
+
+
+           
+        </form>
+    </div>
+</body>
+</html>
